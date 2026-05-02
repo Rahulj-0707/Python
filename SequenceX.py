@@ -1,0 +1,12 @@
+#list Duplicate
+Value1 = [10,20,30,40,10]   
+Value1[2] = 35
+print(Value1[2])
+
+#tuple Duplicte
+Value2 = (10,20,30,40,10)   
+print(Value2[0])  #10
+
+#set  No Duplicate
+Value3 = {10,20,30,40,10} 
+#print(Value3[0])   #Error
